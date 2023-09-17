@@ -2,9 +2,9 @@
 
 ## Author: (Sergio)
 
-**Description:** Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Title in the Content - News Menu.
+**Description:** Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Extra in the Content - News Menu.
 
-**Attack Vectors:** Scripting A vulnerability in the sanitization of the entry in the Ttile of "Content - News Menu" allows injecting JavaScript code that will be executed when the user accesses the web page.
+**Attack Vectors:** Scripting A vulnerability in the sanitization of the entry in the Extra of "Content - News Menu" allows injecting JavaScript code that will be executed when the user accesses the web page.
 
 ---
 
@@ -13,24 +13,26 @@
 
 When logging into the panel, we will go to the "Content- News" section off General Menu.
 
-![XSS Title](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News/assets/87250597/7b2f1dc3-2d69-4ecb-8fee-a1b32377dfc4)
+![XSS Extra](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/ae383f20-3b6d-4d8f-9281-90abc17c7693)
 
 
 
 
 
-We edit that Content - News Menu with the payload that we have created and see that we can inject arbitrary Javascript code in the Title field.
+
+We edit that Content - News Menu with the payload that we have created and see that we can inject arbitrary Javascript code in the Extra field.
 
 
 ### XSS Payload:
 
 ```js
-""><svg/onload=prompt('Title')>
+'"><svg/onload=prompt('Extra')>
 ```
 
 
 In the following image you can see the embedded code that executes the payload in the main web.
-![XSS Title resultado](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News/assets/87250597/bfe17aeb-5139-4f6c-b09c-5d38d6a7b57b)
+![XSS Extra resultado](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/9e67fc96-6d82-43a4-8264-18f58805e4c7)
+
 
 
 
