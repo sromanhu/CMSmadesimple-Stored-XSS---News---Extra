@@ -13,7 +13,8 @@
 
 When logging into the panel, we will go to the "Content- News" section off General Menu.
 
-![XSS Extra](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/ae383f20-3b6d-4d8f-9281-90abc17c7693)
+![XSS Extra](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/6f2c0ed1-0ed3-4bd8-b911-1f81ed28cea6)
+
 
 
 
@@ -31,7 +32,8 @@ We edit that Content - News Menu with the payload that we have created and see t
 
 
 In the following image you can see the embedded code that executes the payload in the main web.
-![XSS Extra resultado](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/9e67fc96-6d82-43a4-8264-18f58805e4c7)
+![XSS Extra resultado](https://github.com/sromanhu/CMSmadesimple-Stored-XSS---News---Extra/assets/87250597/06be394a-f054-40bc-bb02-ebf7ba579662)
+
 
 
 
